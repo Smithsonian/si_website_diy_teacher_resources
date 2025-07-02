@@ -5,16 +5,18 @@
         <div class="module-list-intro">
           <p>Dear Educator,</p>
           <p>
-            Welcome to the Spectrum Lab! Whether you teach Earth Science, Physics, Chemistry,
-            Astronomy, or Biology - you probably spend some of your class time helping students
-            understand light, color, and the electromagnetic spectrum.
+            Welcome to DIY Planet Search! Get ready to engage your students in one of the most
+            exciting and cutting-edge areas of science – the search for other worlds in solar
+            systems beyond our own!
           </p>
           <p>
-            Spectrum Lab consists of 5 modules and 3 suggested Final Projects where students can
-            apply these concepts to real-world phenomena by immersing them in spectroscopy - the
-            universal analytical tool of science (and art, as students discover in the Museum
-            Conservation final project). Educators can select the Spectrum Lab modules that best
-            suit their classes.
+            DIY Planet Search typically takes 4 to 6 instructional hours, and includes 6 core
+            activities. During the project students will gather and analyze real astronomical data
+            from the MicroObservatory telescopes — built and maintained by the Center for
+            Astrophysics | Harvard & Smithsonian— to see if they can detect actual alien worlds
+            orbiting distant stars. Educators can extend the experience by having students
+            investigate multiple target stars, deepening their understanding of exoplanet detection
+            and stellar systems.
           </p>
           <ul class="list-unstyled">
             <ResourceItem

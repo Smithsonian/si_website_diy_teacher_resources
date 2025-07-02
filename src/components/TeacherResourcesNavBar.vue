@@ -8,20 +8,20 @@
         <span class="vr bg-light text-light ms-5 me-3 h-100 align-top"></span>
         <img
           class="d-inline-block align-top"
-          src="/src/assets/SVG/resources_logo.svg?url"
+          src="/src/assets/SVG/diy_resources_logo.svg?url"
           height="36"
           width="415"
         />
       </BNavText>
     </BNavbarNav>
     <BNavbarNav class="ms-auto">
-      <BNavItem :href="SPECLAB_URL" variant="light" opacity-hover="75" class="text-uppercase">
-        Spectrum Lab
+      <BNavItem :href="DIY_URL" variant="light" opacity-hover="75" class="text-uppercase">
+        DIY Planet Search
       </BNavItem>
     </BNavbarNav>
   </BNavbar>
 </template>
 
 <script setup lang="ts">
-import { SPECLAB_URL } from '@/constants';
+import { DIY_URL } from '@/constants';
 </script>
