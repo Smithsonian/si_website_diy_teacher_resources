@@ -1,12 +1,12 @@
-import './assets/main.css'
-import App from './App.vue'
-import { ViteSSG } from 'vite-ssg/single-page'
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { faChevronUp, faChevronDown } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import './assets/main.css';
+import App from './App.vue';
+import { ViteSSG } from 'vite-ssg/single-page';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faChevronUp, faChevronDown } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 
-library.add(faChevronUp, faChevronDown)
+library.add(faChevronUp, faChevronDown);
 
 export const createApp = ViteSSG(App, ({ app }) => {
-  app.component('FontAwesomeIcon', FontAwesomeIcon)
-})
+  app.component('FontAwesomeIcon', FontAwesomeIcon);
+});
