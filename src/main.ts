@@ -1,4 +1,4 @@
-import './assets/main.css';
+import './assets/diy_teacher_resources_theme.scss';
 import App from './App.vue';
 import { ViteSSG } from 'vite-ssg/single-page';
 import { library } from '@fortawesome/fontawesome-svg-core';
