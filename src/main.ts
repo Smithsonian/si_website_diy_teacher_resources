@@ -1,6 +1,12 @@
 import './assets/main.css'
-
-import { createApp } from 'vue'
 import App from './App.vue'
+import { ViteSSG } from 'vite-ssg/single-page'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faChevronUp, faChevronDown } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
-createApp(App).mount('#app')
+library.add(faChevronUp, faChevronDown)
+
+export const createApp = ViteSSG(App, ({ app }) => {
+  app.component('FontAwesomeIcon', FontAwesomeIcon)
+})
