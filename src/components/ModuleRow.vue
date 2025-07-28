@@ -7,15 +7,14 @@
         @click="toggleExpanded"
       >
         <div class="module-row-icon-container">
-          <SvgImage :src="iconSource" class="module-row-icon" />
+          <FontAwesomeIcon
+            v-if="$slots['resource-list']"
+            class="d-block mx-auto mb-3 module-row-chevron"
+            :icon="['fas', 'chevron-down']"
+            size="xl"
+            :flip="isExpanded ? 'vertical' : undefined"
+          />
         </div>
-        <FontAwesomeIcon
-          v-if="$slots['resource-list']"
-          class="d-block mx-auto mb-3 module-row-chevron"
-          :icon="['fas', 'chevron-down']"
-          size="xl"
-          :flip="isExpanded ? 'vertical' : undefined"
-        />
       </div>
       <div>
         <h2 class="h5 text-uppercase text-primary">
@@ -39,13 +38,10 @@
 <script setup lang="ts">
 import { isKeyTrue, removeKey, setKeyTrue } from '@/utils/storageUtils';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
-import { SvgImage } from 'vite-awesome-svg-loader/vue-integration';
 import { computed, onMounted, ref } from 'vue';
 
 const props = withDefaults(
   defineProps<{
-    iconSource: string;
-    iconAlt: string;
     title: string;
     href?: string;
     tagline?: string;
@@ -110,6 +106,7 @@ onMounted(() => {
   flex-direction: column;
   justify-content: space-between;
   color: var(--slr-dark-grey);
+  width: 145px;
 }
 
 .module-row-click-handler {
@@ -119,7 +116,6 @@ onMounted(() => {
 .module-row-icon-container {
   height: 50px;
   width: 145px;
-  color: var(--slr-dark-grey);
 }
 
 .module-row-resource-list {

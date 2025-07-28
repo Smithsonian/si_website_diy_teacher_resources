@@ -1,4 +1,4 @@
-const PREFIX = 'speclab_teacher_resources-';
+const PREFIX = 'diy_teacher_resources-';
 
 export const setKeyTrue = (key: string) => {
   sessionStorage.setItem(`${PREFIX}${key}`, '1');
