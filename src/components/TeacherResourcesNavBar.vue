@@ -1,6 +1,6 @@
 <template>
   <BNavbar v-b-color-mode="'dark'" variant="dark" container="xl">
-    <BNavbarBrand href="https://smithsonian.github.io/si_website_datalabs/">
+    <BNavbarBrand href="https://datalabs.cfa.harvard.edu/">
       <img src="/src/assets/DataLabsLogo@2x-89.png" height="44" width="196" />
     </BNavbarBrand>
     <BNavbarNav>
