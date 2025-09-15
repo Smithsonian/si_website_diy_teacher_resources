@@ -19,10 +19,12 @@
     "@fortawesome/free-solid-svg-icons": "^6.7.2",
     "@fortawesome/vue-fontawesome": "^3.0.8",
     "bootstrap": "^5.3.7",
-    "bootstrap-vue-next": "^0.30.3",
+    "bootstrap-vue-next": "^0.40.3",
+    "pinia": "^3.0.3",
     "vite-awesome-svg-loader": "^2.0.1",
     "vue": "^3.5.17",
-    "vue-gtag": "^3.5.1"
+    "vue-gtag": "^3.5.1",
+    "zod": "^4.1.8"
   },
   "devDependencies": {
     "@tsconfig/node22": "^22.0.2",

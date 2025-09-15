@@ -38,4 +38,9 @@ export default defineConfig({
   build: {
     outDir,
   },
+  server: {
+    proxy: {
+      '/api': 'http://localhost:8080/datalabs',
+    },
+  },
 });

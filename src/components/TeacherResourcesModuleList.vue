@@ -19,8 +19,8 @@
             and stellar systems.
           </p>
           <ul class="list-unstyled">
-            <ResourceItem>Curriculum Overview</ResourceItem>
-            <ResourceItem>Using DIY Planet Search with a Group</ResourceItem>
+            <ResourceItem always-allowed>Curriculum Overview</ResourceItem>
+            <ResourceItem always-allowed>Using DIY Planet Search with a Group</ResourceItem>
           </ul>
         </div>
         <ModuleRow

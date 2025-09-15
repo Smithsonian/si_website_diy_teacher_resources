@@ -1,7 +1,7 @@
 <template>
   <ul class="list-unstyled">
     <ResourceSubList header="Educator Guide">
-      <ResourceItem :href="teacherGuide">PDF</ResourceItem>
+      <ResourceItem>Coming soon</ResourceItem>
     </ResourceSubList>
     <ResourceSubList v-if="hasNotebook" header="Student Notebook Worksheets">
       <ResourceItem :href="notebook">Google doc</ResourceItem>

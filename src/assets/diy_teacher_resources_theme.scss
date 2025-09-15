@@ -84,7 +84,25 @@ $nav-pills-border-radius: 0;
 @import 'bootstrap/scss/bootstrap';
 @import 'bootstrap-vue-next/src/styles/styles.scss';
 
+// bootstrap-vue-next customization
+.toast-container {
+  margin-top: 3rem;
+}
+
 // Utility classes
 .bg-slr-light-grey {
   background-color: var(--slr-light-grey) !important;
+}
+
+.text-gen-grey {
+  color: var(--gen-grey) !important;
+}
+
+// Custom classes
+// Adapted from .invalid-feedback, but without looking for a nearby group
+.form-error {
+  width: 100%;
+  margin: 1rem 0;
+  font-size: 0.875em;
+  color: var(--bs-form-invalid-color);
 }
