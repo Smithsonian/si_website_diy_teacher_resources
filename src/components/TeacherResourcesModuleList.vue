@@ -19,8 +19,16 @@
             and stellar systems.
           </p>
           <ul class="list-unstyled">
-            <ResourceItem always-allowed>Curriculum Overview</ResourceItem>
-            <ResourceItem always-allowed>Using DIY Planet Search with a Group</ResourceItem>
+            <ResourceItem
+              href="https://datalabs.cfa.harvard.edu/large_files/DIY/DIYPlanetSearch_CurriculumOverview.pdf"
+              always-allowed
+              >Curriculum Overview</ResourceItem
+            >
+            <ResourceItem
+              href="https://datalabs.cfa.harvard.edu/large_files/DIY/How%20to%20Use%20DIY%20Planet%20Search%20With%20A%20Group.pdf"
+              always-allowed
+              >Using DIY Planet Search with a Group</ResourceItem
+            >
           </ul>
         </div>
         <ModuleRow
@@ -31,7 +39,12 @@
           Planet Search website and share their thoughts on the possibility of extraterrestrial life
           and the search for other worlds.
           <template #resource-list>
-            <ResourceList has-notebook />
+            <ResourceList
+              has-notebook
+              educator-guide="https://datalabs.cfa.harvard.edu/large_files/DIY/DIYPlanetSearch_A1_%20EducatorGuide.pdf"
+              notebook-pdf="https://datalabs.cfa.harvard.edu/large_files/DIY/DIYPlanetSearch_A1_StudentNotebook.pdf"
+              notebook="https://docs.google.com/document/d/1mi1LeZv5eWfWC9I84RnEsTYfe6DSr1jE1SPxPi-xi-0/edit?usp=sharing"
+            />
           </template>
         </ModuleRow>
         <ModuleRow title="2. Modeling A Transit">
@@ -40,7 +53,12 @@
           observational data.
 
           <template #resource-list>
-            <ResourceList has-notebook />
+            <ResourceList
+              has-notebook
+              educator-guide="https://datalabs.cfa.harvard.edu/large_files/DIY/DIYPlanetSearch_A2_%20EducatorGuide.pdf"
+              notebook-pdf="DIYPlanetSearch_A2_StudentNotebook.pdf"
+              notebook="https://docs.google.com/document/d/1Q5liG9o7UJ6j0Dh4jQE-dx1Vgi4JfFzmLVlLvoLSP_A/edit?usp=sharing"
+            />
           </template>
         </ModuleRow>
         <ModuleRow title="3. Scheduling Telescope Observations">
@@ -50,7 +68,12 @@
           observations as well).
 
           <template #resource-list>
-            <ResourceList has-notebook />
+            <ResourceList
+              has-notebook
+              educator-guide="https://datalabs.cfa.harvard.edu/large_files/DIY/DIYPlanetSearch_A3_%20EducatorGuide.pdf"
+              notebook-pdf="https://datalabs.cfa.harvard.edu/large_files/DIY/DIYPlanetSearch_A3_StudentNotebook.pdf"
+              notebook="https://docs.google.com/document/d/1spNu0nw7wCPlEOrZk6709Ha0dj2TVCF9jiaB199qmp8/edit?usp=sharing"
+            />
           </template>
         </ModuleRow>
         <ModuleRow title="4. Image Analysis: Measuring and Graphing Brightness">
@@ -59,7 +82,12 @@
           curve.
 
           <template #resource-list>
-            <ResourceList has-notebook />
+            <ResourceList
+              has-notebook
+              educator-guide="https://datalabs.cfa.harvard.edu/large_files/DIY/DIYPlanetSearch_A4_%20EducatorGuide.pdf"
+              notebook-pdf="https://datalabs.cfa.harvard.edu/large_files/DIY/DIYPlanetSearch_A4%265_StudentNotebook.pdf"
+              notebook="https://docs.google.com/document/d/1-gbtsHRubYJphdPVZTQNgGjiyp5mKDONtOxwNgymwl8/edit?usp=sharing"
+            />
           </template>
         </ModuleRow>
         <ModuleRow title="5. Data Quality Analysis">
@@ -69,7 +97,9 @@
           timing.
 
           <template #resource-list>
-            <ResourceList />
+            <ResourceList
+              educator-guide="https://datalabs.cfa.harvard.edu/large_files/DIY/DIYPlanetSearch_A5_EducatorGuide.pdf"
+            />
           </template>
         </ModuleRow>
         <ModuleRow title="6. Data Interpretation">
@@ -79,7 +109,12 @@
           tool to draw evidence-based conclusions from a light curve with considerable scatter.
 
           <template #resource-list>
-            <ResourceList has-notebook />
+            <ResourceList
+              has-notebook
+              educator-guide="https://datalabs.cfa.harvard.edu/large_files/DIY/DIYPlanetSearch_A6_%20EducatorGuide.pdf"
+              notebook-pdf="https://datalabs.cfa.harvard.edu/large_files/DIY/DIYPlanetSearch_A6_StudentNotebook.pdf"
+              notebook="https://docs.google.com/document/d/1hyLGIbad9QuF3hBUOQH5oGtZJv90e8CCRJlivhmAP80/edit?usp=sharing"
+            />
           </template>
         </ModuleRow>
       </BCol>
