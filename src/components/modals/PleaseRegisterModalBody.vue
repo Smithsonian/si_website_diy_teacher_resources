@@ -2,8 +2,8 @@
   <div v-if="!auth.username">
     <p>
       Please register for Data Labs as an educator. Once you register for an educator account,
-      you’ll gain access to all the educational resources for Spectrum Lab as well as other Data
-      Labs.
+      you’ll gain access to all the educational resources for DIY Planet Search as well as other
+      Data Labs.
       <LinkButton :button-click="switchToSignupModal">Sign up here.</LinkButton>
     </p>
     <p>
