@@ -203,7 +203,7 @@ const submitSignup = async (event: Event) => {
         password: password.value,
         passwordConfirmation: passwordConfirmation.value,
         zipCode: userZipCode.value,
-        initialDataLab: 'Speclab',
+        initialDataLab: 'DIY',
         agreedToTerms: agreedToTerms.value,
         signedUpForUpdates: signedUpForUpdates.value,
       },
