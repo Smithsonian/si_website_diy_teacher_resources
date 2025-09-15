@@ -56,7 +56,7 @@
             <ResourceList
               has-notebook
               educator-guide="https://datalabs.cfa.harvard.edu/large_files/DIY/DIYPlanetSearch_A2_%20EducatorGuide.pdf"
-              notebook-pdf="DIYPlanetSearch_A2_StudentNotebook.pdf"
+              notebook-pdf="https://datalabs.cfa.harvard.edu/large_files/DIY/DIYPlanetSearch_A2_StudentNotebook.pdf"
               notebook="https://docs.google.com/document/d/1Q5liG9o7UJ6j0Dh4jQE-dx1Vgi4JfFzmLVlLvoLSP_A/edit?usp=sharing"
             />
           </template>
