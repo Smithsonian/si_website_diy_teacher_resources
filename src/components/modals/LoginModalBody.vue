@@ -30,8 +30,14 @@
       <BButton type="submit" variant="primary" :loading="loading" loading-fill>Log in</BButton>
     </BForm>
     <div>
-      Don't have an account?
-      <LinkButton :button-click="switchToSignupModal">Sign up</LinkButton>
+      <p>
+        Don't have an account?
+        <LinkButton :button-click="switchToSignupModal">Sign up</LinkButton>
+      </p>
+      <p class="mb-0">
+        Forgot your password?
+        <BLink href="https://datalabs.cfa.harvard.edu/diy/recover.php">Reset it</BLink>
+      </p>
     </div>
   </div>
 </template>

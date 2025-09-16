@@ -20,7 +20,9 @@
           </p>
         </BCol>
         <BCol>
-          <img src="/src/assets/CfALogo@2x.png" width="100%" />
+          <a href="https://www.cfa.harvard.edu/">
+            <img src="/src/assets/CfALogo@2x.png" width="100%" />
+          </a>
         </BCol>
       </BRow>
     </BContainer>
