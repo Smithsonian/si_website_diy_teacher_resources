@@ -2,7 +2,7 @@
 import { useHead } from '@unhead/vue';
 import AllModals from './components/modals/AllModals.vue';
 
-useHead({ title: 'Teacher Resources | DIY' });
+useHead({ title: 'Educator Resources | DIY' });
 </script>
 
 <template>
