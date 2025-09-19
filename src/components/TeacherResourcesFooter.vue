@@ -5,7 +5,7 @@
         <BCol cols="8">
           <p>
             <small>
-              DIY Planet Search is a Smithsonian DataLab supported by the Smithsonian Institution’s
+              DIY Planet Search is a Smithsonian Data Lab supported by the Smithsonian Institution’s
               Together We Thrive initiative and funded in part by the Jeff Bezos gift to the
               National Air and Space Museum. Additional support from NASA's Universe of Learning
               under award number NNX16AC65A to the Space Telescope Science Institute, working in
