@@ -11,7 +11,8 @@ export const fetchAndParse = async <S>(
 ): Promise<S> => {
   const options: RequestInit = { method };
   if (body) {
-    options.body = JSON.stringify(body);
+    const bodyWithApp = { ...body, app: 'DIY_resources' };
+    options.body = JSON.stringify(bodyWithApp);
     options.headers = {
       'Content-Type': 'application/json',
     };
