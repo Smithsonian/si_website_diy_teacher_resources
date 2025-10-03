@@ -6,6 +6,7 @@
     <ResourceSubList v-if="hasNotebook" header="Student Notebook Worksheets">
       <ResourceItem :href="notebook">Google doc</ResourceItem>
       <ResourceItem :href="notebookPdf">PDF</ResourceItem>
+      <ResourceItem :href="notebookWord">Word</ResourceItem>
     </ResourceSubList>
     <slot></slot>
   </ul>
@@ -17,5 +18,6 @@ defineProps<{
   educatorGuide?: string;
   notebook?: string;
   notebookPdf?: string;
+  notebookWord?: string;
 }>();
 </script>
