@@ -135,6 +135,14 @@
         </BFormCheckbox>
       </div>
       <div class="mb-3">
+        <BFormCheckbox id="signup-accept-privacy" v-model="agreedToPrivacy" required>
+          I accept and agree to abide by the
+          <a href="https://www.si.edu/privacy" target="_blank" rel="noopener"
+            >Smithsonian Privacy Policy</a
+          >.
+        </BFormCheckbox>
+      </div>
+      <div class="mb-3">
         <BFormCheckbox id="signup-get-updates" v-model="signedUpForUpdates">
           Sign up for news and updates (optional).
         </BFormCheckbox>
@@ -176,6 +184,7 @@ const password = ref('');
 const passwordConfirmation = ref('');
 const userZipCode = ref('');
 const agreedToTerms = ref(false);
+const agreedToPrivacy = ref(false);
 const signedUpForUpdates = ref(false);
 
 const firstName = ref('');
@@ -205,6 +214,7 @@ const submitSignup = async (event: Event) => {
         zipCode: userZipCode.value,
         initialDataLab: 'DIY',
         agreedToTerms: agreedToTerms.value,
+        agreedToPrivacy: agreedToPrivacy.value,
         signedUpForUpdates: signedUpForUpdates.value,
       },
       educator: {
