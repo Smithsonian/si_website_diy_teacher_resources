@@ -135,22 +135,21 @@
         </BFormCheckbox>
       </div>
       <div class="mb-3">
-        <BFormCheckbox id="signup-accept-privacy" v-model="agreedToPrivacy" required>
-          I accept and agree to abide by the
-          <a href="https://www.si.edu/privacy" target="_blank" rel="noopener"
-            >Smithsonian Privacy Policy</a
-          >.
-        </BFormCheckbox>
-      </div>
-      <div class="mb-3">
         <BFormCheckbox id="signup-get-updates" v-model="signedUpForUpdates">
           Sign up for news and updates (optional).
         </BFormCheckbox>
       </div>
+      <div class="mb-3">
+        <a href="https://www.si.edu/privacy" target="_blank" rel="noopener"
+          >Smithsonian Privacy Policy</a
+        >
+      </div>
       <div v-if="errorArray" class="form-error">
         <p v-for="[field, message] in errorArray" v-bind:key="field">{{ field }}: {{ message }}</p>
       </div>
-      <BButton type="submit" variant="primary" :loading="loading" loading-fill>Sign up</BButton>
+      <BButton type="submit" variant="primary" :loading="loading" loading-fill class="mb-3">
+        Sign up
+      </BButton>
     </BForm>
   </div>
   <div>
@@ -184,7 +183,6 @@ const password = ref('');
 const passwordConfirmation = ref('');
 const userZipCode = ref('');
 const agreedToTerms = ref(false);
-const agreedToPrivacy = ref(false);
 const signedUpForUpdates = ref(false);
 
 const firstName = ref('');
@@ -214,7 +212,6 @@ const submitSignup = async (event: Event) => {
         zipCode: userZipCode.value,
         initialDataLab: 'DIY',
         agreedToTerms: agreedToTerms.value,
-        agreedToPrivacy: agreedToPrivacy.value,
         signedUpForUpdates: signedUpForUpdates.value,
       },
       educator: {
@@ -250,8 +247,9 @@ const errorArray = computed((): [string, string][] => {
   }
   const errorLines = error.value.split('\n');
   return errorLines.map((line, i) => {
-    let [field, message] = line.split(':');
-    if (!message) {
+    const lineArray = line.split(':');
+    let [field, message] = lineArray;
+    if (!message || lineArray.length > 2) {
       field = `${i}`;
       message = line;
     }
