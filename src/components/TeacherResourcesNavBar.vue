@@ -1,6 +1,6 @@
 <template>
   <BNavbar v-b-color-mode="'dark'" variant="dark" container="xl">
-    <BNavbarBrand href="https://datalabs.cfa.harvard.edu/">
+    <BNavbarBrand :href="DATA_LABS_BASE">
       <img src="/src/assets/DataLabsLogo@2x-89.png" height="44" width="196" />
     </BNavbarBrand>
     <BNavbarNav>
@@ -45,6 +45,7 @@
 
 <script setup lang="ts">
 import { DIY_URL } from '@/constants';
+import { DATA_LABS_BASE } from '@/constants';
 
 import { useAuthStore } from '@/store/auth';
 import { useModalsStore } from '@/store/modals';
