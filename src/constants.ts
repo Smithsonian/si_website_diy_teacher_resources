@@ -17,3 +17,8 @@ export const DATA_LABS_BASE = import.meta.env.DEV
   : `${import.meta.env.BASE_URL}/..`;
 export const DIY_URL = `${DATA_LABS_BASE}/diy/`;
 export const SPECLAB_URL = `${DATA_LABS_BASE}/spectrumlab/`;
+
+// Large files location
+export const LARGE_FILES_BASE = import.meta.env.DEV
+  ? 'https://datalabs.cfa.harvard.edu/large_files'
+  : '/large_files';

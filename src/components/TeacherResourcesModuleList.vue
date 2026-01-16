@@ -20,12 +20,12 @@
           </p>
           <ul class="list-unstyled">
             <ResourceItem
-              href="https://datalabs.cfa.harvard.edu/large_files/DIY/DIYPlanetSearch_CurriculumOverview.pdf"
+              :href="`${LARGE_FILES_BASE}/DIY/DIYPlanetSearch_CurriculumOverview.pdf`"
               always-allowed
               >Curriculum Overview</ResourceItem
             >
             <ResourceItem
-              href="https://datalabs.cfa.harvard.edu/large_files/DIY/How%20to%20Use%20DIY%20Planet%20Search%20With%20A%20Group.pdf"
+              :href="`${LARGE_FILES_BASE}/DIY/How%20to%20Use%20DIY%20Planet%20Search%20With%20A%20Group.pdf`"
               always-allowed
               >Using DIY Planet Search with a Group</ResourceItem
             >
@@ -41,10 +41,10 @@
           <template #resource-list>
             <ResourceList
               has-notebook
-              educator-guide="https://datalabs.cfa.harvard.edu/large_files/DIY/DIYPlanetSearch_A1_%20EducatorGuide.pdf"
-              notebook-pdf="https://datalabs.cfa.harvard.edu/large_files/DIY/DIYPlanetSearch_A1_StudentNotebook.pdf"
+              :educator-guide="`${LARGE_FILES_BASE}/DIY/DIYPlanetSearch_A1_%20EducatorGuide.pdf`"
+              :notebook-pdf="`${LARGE_FILES_BASE}/DIY/DIYPlanetSearch_A1_StudentNotebook.pdf`"
               notebook="https://docs.google.com/document/d/1mi1LeZv5eWfWC9I84RnEsTYfe6DSr1jE1SPxPi-xi-0/copy"
-              notebook-word="https://datalabs.cfa.harvard.edu/large_files/DIY/DIY%20Planet%20Search%20-%20A1_%20Introduction%20-%20Student%20Notebook.docx"
+              :notebook-word="`${LARGE_FILES_BASE}/DIY/DIY%20Planet%20Search%20-%20A1_%20Introduction%20-%20Student%20Notebook.docx`"
             />
           </template>
         </ModuleRow>
@@ -56,10 +56,10 @@
           <template #resource-list>
             <ResourceList
               has-notebook
-              educator-guide="https://datalabs.cfa.harvard.edu/large_files/DIY/DIYPlanetSearch_A2_%20EducatorGuide.pdf"
-              notebook-pdf="https://datalabs.cfa.harvard.edu/large_files/DIY/DIYPlanetSearch_A2_StudentNotebook.pdf"
+              :educator-guide="`${LARGE_FILES_BASE}/DIY/DIYPlanetSearch_A2_%20EducatorGuide.pdf`"
+              :notebook-pdf="`${LARGE_FILES_BASE}/DIY/DIYPlanetSearch_A2_StudentNotebook.pdf`"
               notebook="https://docs.google.com/document/d/1Q5liG9o7UJ6j0Dh4jQE-dx1Vgi4JfFzmLVlLvoLSP_A/copy"
-              notebook-word="https://datalabs.cfa.harvard.edu/large_files/DIY/DIY%20Planet%20Search%20-%20A2_%20Modeling%20A%20Transit%20-%20Student%20Notebook.docx"
+              :notebook-word="`${LARGE_FILES_BASE}/DIY/DIY%20Planet%20Search%20-%20A2_%20Modeling%20A%20Transit%20-%20Student%20Notebook.docx`"
             />
           </template>
         </ModuleRow>
@@ -72,10 +72,10 @@
           <template #resource-list>
             <ResourceList
               has-notebook
-              educator-guide="https://datalabs.cfa.harvard.edu/large_files/DIY/DIYPlanetSearch_A3_%20EducatorGuide.pdf"
-              notebook-pdf="https://datalabs.cfa.harvard.edu/large_files/DIY/DIYPlanetSearch_A3_StudentNotebook.pdf"
+              :educator-guide="`${LARGE_FILES_BASE}/DIY/DIYPlanetSearch_A3_%20EducatorGuide.pdf`"
+              :notebook-pdf="`${LARGE_FILES_BASE}/DIY/DIYPlanetSearch_A3_StudentNotebook.pdf`"
               notebook="https://docs.google.com/document/d/1spNu0nw7wCPlEOrZk6709Ha0dj2TVCF9jiaB199qmp8/copy"
-              notebook-word="https://datalabs.cfa.harvard.edu/large_files/DIY/DIY%20Planet%20Search%20-%20A3_%20Scheduling%20Telescope%20Observations%20-%20Student%20Notebook.docx"
+              :notebook-word="`${LARGE_FILES_BASE}/DIY/DIY%20Planet%20Search%20-%20A3_%20Scheduling%20Telescope%20Observations%20-%20Student%20Notebook.docx`"
             />
           </template>
         </ModuleRow>
@@ -87,10 +87,10 @@
           <template #resource-list>
             <ResourceList
               has-notebook
-              educator-guide="https://datalabs.cfa.harvard.edu/large_files/DIY/DIYPlanetSearch_A4_%20EducatorGuide.pdf"
-              notebook-pdf="https://datalabs.cfa.harvard.edu/large_files/DIY/DIYPlanetSearch_A4%265_StudentNotebook.pdf"
+              :educator-guide="`${LARGE_FILES_BASE}/DIY/DIYPlanetSearch_A4_%20EducatorGuide.pdf`"
+              :notebook-pdf="`${LARGE_FILES_BASE}/DIY/DIYPlanetSearch_A4%265_StudentNotebook.pdf`"
               notebook="https://docs.google.com/document/d/1-gbtsHRubYJphdPVZTQNgGjiyp5mKDONtOxwNgymwl8/copy"
-              notebook-word="https://datalabs.cfa.harvard.edu/large_files/DIY/DIY%20Planet%20Search%20-%20A4%265_%20Making%20Observations%20-%20Student%20Notebook.docx"
+              :notebook-word="`${LARGE_FILES_BASE}/DIY/DIY%20Planet%20Search%20-%20A4%265_%20Making%20Observations%20-%20Student%20Notebook.docx`"
             />
           </template>
         </ModuleRow>
@@ -102,7 +102,7 @@
 
           <template #resource-list>
             <ResourceList
-              educator-guide="https://datalabs.cfa.harvard.edu/large_files/DIY/DIYPlanetSearch_A5_EducatorGuide.pdf"
+              :educator-guide="`${LARGE_FILES_BASE}/DIY/DIYPlanetSearch_A5_EducatorGuide.pdf`"
             />
           </template>
         </ModuleRow>
@@ -115,10 +115,10 @@
           <template #resource-list>
             <ResourceList
               has-notebook
-              educator-guide="https://datalabs.cfa.harvard.edu/large_files/DIY/DIYPlanetSearch_A6_%20EducatorGuide.pdf"
-              notebook-pdf="https://datalabs.cfa.harvard.edu/large_files/DIY/DIYPlanetSearch_A6_StudentNotebook.pdf"
+              :educator-guide="`${LARGE_FILES_BASE}/DIY/DIYPlanetSearch_A6_%20EducatorGuide.pdf`"
+              :notebook-pdf="`${LARGE_FILES_BASE}/DIY/DIYPlanetSearch_A6_StudentNotebook.pdf`"
               notebook="https://docs.google.com/document/d/1hyLGIbad9QuF3hBUOQH5oGtZJv90e8CCRJlivhmAP80/copy"
-              notebook-word="https://datalabs.cfa.harvard.edu/large_files/DIY/DIY%20Planet%20Search%20-%20A6_%20Data%20Interpretation%20-%20Student%20Notebook.docx"
+              :notebook-word="`${LARGE_FILES_BASE}/DIY/DIY%20Planet%20Search%20-%20A6_%20Data%20Interpretation%20-%20Student%20Notebook.docx`"
             />
           </template>
         </ModuleRow>
@@ -127,7 +127,9 @@
   </BContainer>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { LARGE_FILES_BASE } from '@/constants';
+</script>
 
 <style>
 .module-list-intro {
