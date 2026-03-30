@@ -20,12 +20,12 @@
           </p>
           <ul class="list-unstyled">
             <ResourceItem
-              :href="`${LARGE_FILES_BASE}/DIY/DIYPlanetSearch_CurriculumOverview.pdf`"
+              :href="`${LARGE_FILES_BASE}/DIY/DIYPlanetSearch_CurriculumOverview%202026-03-25.pdf`"
               always-allowed
               >Curriculum Overview</ResourceItem
             >
             <ResourceItem
-              :href="`${LARGE_FILES_BASE}/DIY/How%20to%20Use%20DIY%20Planet%20Search%20With%20A%20Group.pdf`"
+              :href="`${LARGE_FILES_BASE}/DIY/How%20to%20Use%20DIY%20Planet%20Search%20With%20A%20Group%202026-03-25.pdf`"
               always-allowed
               >Using DIY Planet Search with a Group</ResourceItem
             >
