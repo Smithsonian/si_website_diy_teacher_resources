@@ -20,7 +20,7 @@
           </p>
           <ul class="list-unstyled">
             <ResourceItem
-              :href="`${LARGE_FILES_BASE}/DIY/DIYPlanetSearch_CurriculumOverview%202026-03-25.pdf`"
+              :href="`${LARGE_FILES_BASE}/DIY/DIYPlanetSearch_CurriculumOverview%202026-03-30%202.pdf`"
               always-allowed
               >Curriculum Overview</ResourceItem
             >
